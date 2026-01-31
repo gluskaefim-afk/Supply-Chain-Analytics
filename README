@@ -1,0 +1,3 @@
+Project objective: To analyze a data frame and identify the cause of the company's profit loss; identify suboptimal routes, suppliers, modes of transport, and overall combinations.
+Tools used: Pandas, Numpy, Matplotlib, Seaborn.
+Insights: The primary source of profit loss is incorrect product pricing, specifically production costs that significantly exceed the selling price of the product. Optimal delivery combinations (with the fewest failures) were identified.
