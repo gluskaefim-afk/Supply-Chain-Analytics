@@ -1,3 +1,73 @@
-Project objective: To analyze a data frame and identify the cause of the company's profit loss; identify suboptimal routes, suppliers, modes of transport, and overall combinations.
-Tools used: Pandas, Numpy, Matplotlib, Seaborn.
-Insights: The primary source of profit loss is incorrect product pricing, specifically production costs that significantly exceed the selling price of the product. Optimal delivery combinations (with the fewest failures) were identified.
+Supply Chain Analytics: Profitability & Operational Efficiency
+
+📌 Project Overview:
+This project focuses on end-to-end supply chain analytics with the goal of identifying profitability issues, operational inefficiencies, and data inconsistencies within a multi-category product portfolio.
+The analysis combines financial metrics, logistics performance, and production characteristics to uncover the main drivers of losses and delays, and to provide actionable business recommendations.
+The project is based on aggregated supply chain data and simulates a real-world analytical task faced by logistics and operations teams.
+
+🛠 Tools & Technologies:
+● Python (Pandas, NumPy, Matplotlib, Seaborn)
+● Jupyter Notebook
+● MS Excel, MS Word
+● Exploratory Data Analysis (EDA)
+● Business-oriented analytical approach
+
+🧮 Data Assumptions & Adjustments:
+During the initial data exploration, inconsistencies were identified in the 'Revenue' column.  
+The provided revenue values did not mathematically correspond to the product price and the number of units sold.
+To ensure internal consistency and realistic financial analysis, revenue was recalculated using the following formula:
+
+Revenue = Price × Number of products sold
+
+The following assumptions were applied for profit and margin calculations:
+- 'Price' is interpreted as the selling price per unit.
+- 'Manufacturing costs' are treated as unit production costs and multiplied by the number of units sold.
+- 'Shipping costs' are treated as aggregated logistics costs and are not multiplied by quantity.
+- The 'Costs' column is interpreted as fixed or overhead costs and deducted once per SKU.
+
+These adjustments were necessary to obtain coherent financial metrics and to support meaningful analytical conclusions.
+
+
+🏆 Objectives:
+● Identify unprofitable product categories and SKUs
+● Analyze pricing vs manufacturing costs
+● Evaluate Lead Time structure and bottlenecks
+● Assess transportation routes and delivery performance
+● Detect data quality issues and correct financial calculations
+● Provide business-focused recommendations
+
+📊 Key Analyses Performed:
+1. Revenue & Cost Validation
+2. Profitability Analysis by Category & SKU
+3. Lead Time Decomposition
+4. Transportation & Route Analysis
+
+💡 Key Insights:
+● Incorrect pricing is the primary source of losses
+● ~50% of SKUs are sold below production cost
+● Long manufacturing lead times are a systemic bottleneck
+● Logistics costs are not the main driver of financial losses
+● Aggregated data can hide critical SKU-level issues
+
+🔑 Recommendations:
+● Review pricing strategy, especially for Haircare products
+● Reassess supplier contracts and raw material costs
+● Shorten manufacturing lead times via:
+  * Capacity reallocation
+  * Improved production planning
+  * Implement SKU-level demand forecasting
+(More detailed recommendations are in the file "Report.docx")
+
+⚠️ Limitations
+Analysis is based on aggregated data
+Does not account for:
+Seasonality,
+Contractual supplier conditions,
+Commodity price fluctuations.
+
+Results should be validated with more detailed operational data.
+
+👤 Author: Yefym Hlushkovskyi
+Aspiring Data Analyst / Supply Chain Analyst
+Focused on logistics, operations analytics, and data-driven decision making
+
