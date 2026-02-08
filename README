@@ -4,14 +4,14 @@ Supply Chain Analytics: Profitability & Operational Efficiency
 This project focuses on end-to-end supply chain analytics with the goal of identifying profitability issues, operational inefficiencies, and data inconsistencies within a multi-category product portfolio.
 The analysis combines financial metrics, logistics performance, and production characteristics to uncover the main drivers of losses and delays, and to provide actionable business recommendations.
 The project is based on aggregated supply chain data and simulates a real-world analytical task faced by logistics and operations teams.
-***
+
 🛠 Tools & Technologies:
 ● Python (Pandas, NumPy, Matplotlib, Seaborn)
 ● Jupyter Notebook
 ● MS Excel, MS Word
 ● Exploratory Data Analysis (EDA)
 ● Business-oriented analytical approach
-***
+
 🧮 Data Assumptions & Adjustments:
 During the initial data exploration, inconsistencies were identified in the 'Revenue' column.  
 The provided revenue values did not mathematically correspond to the product price and the number of units sold.
