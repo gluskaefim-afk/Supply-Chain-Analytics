@@ -1,4 +1,4 @@
-Supply Chain Analytics: Profitability & Operational Efficiency
+# Supply Chain Analytics: Profitability & Operational Efficiency
 
 📌 Project Overview:
 This project focuses on end-to-end supply chain analytics with the goal of identifying profitability issues, operational inefficiencies, and data inconsistencies within a multi-category product portfolio.
@@ -28,7 +28,7 @@ The following assumptions were applied for profit and margin calculations:
 These adjustments were necessary to obtain coherent financial metrics and to support meaningful analytical conclusions.
 
 
-🏆 Objectives:
+# 🏆 Objectives:
 ● Identify unprofitable product categories and SKUs
 ● Analyze pricing vs manufacturing costs
 ● Evaluate Lead Time structure and bottlenecks
@@ -36,20 +36,20 @@ These adjustments were necessary to obtain coherent financial metrics and to sup
 ● Detect data quality issues and correct financial calculations
 ● Provide business-focused recommendations
 
-📊 Key Analyses Performed:
+# 📊 Key Analyses Performed:
 1. Revenue & Cost Validation
 2. Profitability Analysis by Category & SKU
 3. Lead Time Decomposition
 4. Transportation & Route Analysis
 
-💡 Key Insights:
+# 💡 Key Insights:
 ● Incorrect pricing is the primary source of losses
 ● ~50% of SKUs are sold below production cost
 ● Long manufacturing lead times are a systemic bottleneck
 ● Logistics costs are not the main driver of financial losses
 ● Aggregated data can hide critical SKU-level issues
 
-🔑 Recommendations:
+# 🔑 Recommendations:
 ● Review pricing strategy, especially for Haircare products
 ● Reassess supplier contracts and raw material costs
 ● Shorten manufacturing lead times via:
@@ -58,7 +58,7 @@ These adjustments were necessary to obtain coherent financial metrics and to sup
   * Implement SKU-level demand forecasting
 (More detailed recommendations are in the file "Report.docx")
 
-⚠️ Limitations
+# ⚠️ Limitations
 Analysis is based on aggregated data
 Does not account for:
 Seasonality,
@@ -67,7 +67,7 @@ Commodity price fluctuations.
 
 Results should be validated with more detailed operational data.
 
-👤 Author: Yefym Hlushkovskyi
+# 👤 Author: Yefym Hlushkovskyi
 Aspiring Data Analyst / Supply Chain Analyst
 Focused on logistics, operations analytics, and data-driven decision making
 
