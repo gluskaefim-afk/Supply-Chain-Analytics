@@ -17,7 +17,7 @@ During the initial data exploration, inconsistencies were identified in the 'Rev
 The provided revenue values did not mathematically correspond to the product price and the number of units sold.
 To ensure internal consistency and realistic financial analysis, revenue was recalculated using the following formula:
 
-Revenue = Price × Number of products sold
+Revenue = Price * Number of products sold
 
 The following assumptions were applied for profit and margin calculations:
 - 'Price' is interpreted as the selling price per unit.
@@ -42,7 +42,7 @@ These adjustments were necessary to obtain coherent financial metrics and to sup
 3. Lead Time Decomposition
 4. Transportation & Route Analysis
 
-# 💡 Key Insights:
+💡 Key Insights:
 ● Incorrect pricing is the primary source of losses
 ● ~50% of SKUs are sold below production cost
 ● Long manufacturing lead times are a systemic bottleneck
@@ -67,7 +67,7 @@ Commodity price fluctuations.
 
 Results should be validated with more detailed operational data.
 
-# 👤 Author: Yefym Hlushkovskyi
+👤 Author: Yefym Hlushkovskyi
 Aspiring Data Analyst / Supply Chain Analyst
 Focused on logistics, operations analytics, and data-driven decision making
 
